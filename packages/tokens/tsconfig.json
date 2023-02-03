@@ -1,0 +1,4 @@
+{
+  "extends": "@torquimetro/ts-config/base.json",
+  "include": ["src"],
+}
