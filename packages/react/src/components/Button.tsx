@@ -34,18 +34,18 @@ export const Button = styled('button', {
         variant: {
             primary: {
                 color: '$gray100',
-                backgroundColor: "$torquimetro500",
-
-                '&:not(:disabled):hover': {
-                    backgroundColor: "$torquimetro600"
-                },
-            },
-            secondary: {
-                color: '$torquimetro500',
-                border: '2px solid $torquimetro500',
+                backgroundColor: "$torquimetro900",
 
                 '&:not(:disabled):hover': {
                     backgroundColor: "$torquimetro500",
+                },
+            },
+            secondary: {
+                color: '$torquimetro900',
+                border: '2px solid $torquimetro900',
+
+                '&:not(:disabled):hover': {
+                    backgroundColor: "$torquimetro900",
                     color: "$gray100"
                 },
             },
@@ -53,7 +53,7 @@ export const Button = styled('button', {
                 color: '$gray900',
 
                 '&:not(:disabled):hover': {
-                    color: "$torquimetro500"
+                    color: "$torquimetro900"
                 },
             }
         },
