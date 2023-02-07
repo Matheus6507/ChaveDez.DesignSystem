@@ -10,6 +10,11 @@ export default {
                 <Text>Testando o elemento Box</Text>
             </>
         )
+    },
+    argTypes: {
+        onClick: {
+            action: 'click'
+        }
     }
 } as Meta<BoxProps>
 
