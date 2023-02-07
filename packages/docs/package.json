@@ -26,6 +26,7 @@
     "vite": "^4.1.1"
   },
   "dependencies": {
+    "@mdx-js/esbuild": "^2.2.1",
     "@torquimetro/react": "*",
     "@torquimetro/tokens": "*",
     "@torquimetro/ts-config": "*",
